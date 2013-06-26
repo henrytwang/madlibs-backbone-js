@@ -1,4 +1,4 @@
-Madlibs in Backbone.js
+MadLibs in Backbone.js
 =================
 
 Use the simple Python webserver to 'run' the app (make its resources available):  
