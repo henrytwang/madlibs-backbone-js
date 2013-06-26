@@ -4,16 +4,28 @@
 
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Backbone!</title>
+    <title>Looking for L-O-V-E (backbone)</title>
 
     <link rel="stylesheet" href="css/app.css">
     <script src="js/lib/jquery-1.10.1.js"></script>
     <script src="js/lib/underscore.js"></script>
     <script src="js/lib/backbone.js"></script>
     <script src="js/app.js"></script>
+    <script id="madlibsTemplate" type="text/template">
+      <%= text %>
+      <button class="add">Add Word</button>
+    </script>
   </head>
 
   <body>
-    <div id="container"></div>
+    <h1>Looking for L-O-V-E</h1>
+    <h4>(Mad-Libs in Backbone.js)</h4>
+    <div id="container">
+    </div>
+    <div class="button-container">
+    <button id="reveal">SHOW ME THE MONET</button>
+    </div>
+
+
   </body>
 </html>

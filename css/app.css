@@ -1,0 +1,21 @@
+h1, h4 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    float: right;
+    clear:both;
+}
+
+#container {
+    width:700px;
+    margin: 0 auto;
+}
+
+#reveal {
+    clear: both;
+    width:200px;
+    margin-top:400px;
+    margin-left:600px;
+}
